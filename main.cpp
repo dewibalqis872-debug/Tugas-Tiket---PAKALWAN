@@ -1,17 +1,18 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
-// Fungsi untuk menampilkan menu tiket
+// Fungsi menampilkan menu tiket
 void menuTiket() {
     cout << "==================================" << endl;
     cout << "       PROGRAM PEMESANAN BUS      " << endl;
     cout << "==================================" << endl;
     cout << "1. Malang - Surabaya" << endl;
-    cout << "   Harga : Rp 35.000" << endl;
+    cout << "   Harga : Rp 35000" << endl;
     cout << "2. Malang - Pasuruan" << endl;
-    cout << "   Harga : Rp 20.000" << endl;
+    cout << "   Harga : Rp 20000" << endl;
     cout << "3. Malang - Jombang" << endl;
-    cout << "   Harga : Rp 25.000" << endl;
+    cout << "   Harga : Rp 25000" << endl;
     cout << "==================================" << endl;
 }
 
@@ -62,11 +63,11 @@ int main() {
 
     cout << endl;
     cout << "========== STRUK TIKET ==========" << endl;
-    cout << "Tujuan          : " << tujuan << endl;
-    cout << "Harga tiket     : Rp " << harga << endl;
-    cout << "Jumlah penumpang: " << jumlah << endl;
+    cout << "Tujuan           : " << tujuan << endl;
+    cout << "Harga tiket      : Rp " << harga << endl;
+    cout << "Jumlah penumpang : " << jumlah << endl;
     cout << "---------------------------------" << endl;
-    cout << "Total pembayaran: Rp " << total << endl;
+    cout << "Total pembayaran : Rp " << total << endl;
     cout << "=================================" << endl;
     cout << "Terima kasih telah memesan tiket!" << endl;
 
